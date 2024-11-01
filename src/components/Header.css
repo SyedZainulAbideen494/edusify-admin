@@ -1,0 +1,43 @@
+/* Header Styles */
+.admin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .admin-header-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .admin-nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .admin-nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+  }
+  
+  .admin-nav-link:hover {
+    color: #ddd;
+  }
+  
+  /* Responsive Navigation */
+  @media (max-width: 768px) {
+    .admin-nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .admin-nav-link {
+      font-size: 0.9rem;
+    }
+  }
+  
